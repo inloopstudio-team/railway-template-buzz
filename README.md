@@ -2,11 +2,11 @@
 
 Production-oriented Railway packaging for [Buzz](https://github.com/block/buzz), Block's self-hostable workspace for humans and AI agents.
 
-The Deploy on Railway button will be added only after the public marketplace route is verified as owned by Inloop Studio.
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/buzz-inloop-studio?referralCode=ZqgrJ0)
 
 ## What this deploys
 
-- Buzz Relay `0.2.0` from the official `ghcr.io/block/buzz:0.2.0` image
+- Buzz Relay `0.2.0` from the official image, pinned to tested digest `sha256:a0f67203d71d15d237fa7517788799957c30c8acdb81cbcff711e07e951c2710`
 - Railway PostgreSQL for events, search, membership, workflows, and audit data
 - Railway Redis for pub/sub, presence, and typing indicators
 - A Railway Bucket for media and Git object storage
@@ -35,7 +35,7 @@ Version bumps are deliberate. Update the pinned relay version only after checkin
 ## Sources and licensing
 
 - [Buzz source](https://github.com/block/buzz)
-- [Buzz Relay 0.2.0 source tag](https://github.com/block/buzz/releases/tag/relay-v0.2.0)
+- [Buzz Relay 0.2.0 source tag](https://github.com/block/buzz/tree/relay-v0.2.0)
 - [Buzz documentation](https://github.com/block/buzz#readme)
 - [Buzz production Compose guide](https://github.com/block/buzz/tree/relay-v0.2.0/deploy/compose)
 
