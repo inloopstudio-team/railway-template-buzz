@@ -24,7 +24,7 @@ After deployment, connect the Buzz desktop or mobile client to the generated `ws
 - [Buzz upstream source](https://github.com/block/buzz)
 - [Buzz Relay 0.2.0](https://github.com/block/buzz/releases/tag/relay-v0.2.0)
 - [Production deployment documentation](https://github.com/block/buzz/tree/relay-v0.2.0/deploy/compose)
-- [Template packaging source](https://github.com/monotykamary/railway-template-buzz)
+- [Template packaging source](https://github.com/inloopstudio-team/railway-template-buzz)
 
 ### Implementation Details
 
